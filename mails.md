@@ -1,10 +1,8 @@
 # Mails
 
-Mails represent an xChain request,&#x20;
+Mails represent an xChain request,
 
-
-
-Mail = (Envelope) + (Letter) = (Envelope) +&#x20;
+Mail = (Envelope) + (Letter) = (Envelope) +
 
 ```rust
 pub struct Mail {
@@ -22,9 +20,6 @@ pub struct Mail {
     // Mailing response. Filled in once response is received
     response: Option<RequestId> 
 }
-
-
-
 
 
 
