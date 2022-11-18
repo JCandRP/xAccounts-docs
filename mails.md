@@ -1,13 +1,18 @@
 # Mails
 
-Mails represent an xChain request,
+Mails constitute an xChain request,&#x20;
 
-Mail = (Envelope) + (Letter) = (Envelope) +
+
+
+$$
+\text{Mail} = \text{Envelope}+\text{Letter}+\text{Stamp}
+$$
 
 ```rust
 pub struct Mail {
-envelop: Envelope, 
-letter: Binary, 
+envelope: Envelope, 
+letter: Letter, 
+stamp: Option<Stamp>, 
 status: MailingStatus // status of mail. Can be one of Pending, Complete, or Failed
 
 pub struct Mail {
@@ -20,6 +25,9 @@ pub struct Mail {
     // Mailing response. Filled in once response is received
     response: Option<RequestId> 
 }
+
+
+
 
 
 
@@ -48,3 +56,4 @@ pub struct Mail {
     response: Option<WormholeResponse> 
 }
 ```
+

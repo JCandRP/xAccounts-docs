@@ -6,4 +6,5 @@
 * [Mails](mails.md)
 * [Envelopes](envelopes.md)
 * [Letters](letters.md)
+* [Stamps](stamps.md)
 * [Contracts](contracts.md)
