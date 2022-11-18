@@ -1,4 +1,4 @@
-# Stamps
+# Stamp
 
 Stamps are information filled in by the xAccount contract. They encode information about the mail itself.&#x20;
 

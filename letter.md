@@ -1,6 +1,6 @@
-# Letters
+# Letter
 
-Letters represent the core body of a mail, comprised of the data being transferred and classifications on what to do with the data.&#x20;
+Letters represent the core body of a mail, comprised of the data being transferred and classifications on what to do with the data. Letters are assembled by the mail sender.&#x20;
 
 ```rust
 pub struct Letter {
