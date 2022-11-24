@@ -1,10 +1,9 @@
 # Table of contents
 
 * [What are xAccounts?](README.md)
-* [Concepts](concepts.md)
-* [VAAs](vaas.md)
-* [Mail](mail.md)
-* [Envelope](envelope.md)
-* [Letter](letter.md)
-* [Stamp](stamp.md)
+* [Mail](mail/README.md)
+  * [Envelope](mail/envelope.md)
+  * [Letter](mail/letter.md)
+  * [Stamp](mail/stamp.md)
+* [VAA \[Wormhole\]](vaa-wormhole.md)
 * [Contracts](contracts.md)
