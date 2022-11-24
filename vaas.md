@@ -1,4 +1,4 @@
-# VAAs
+# VAA \[Wormhole]
 
 Messages emitted by contracts need to be verified by the guardians before they can be sent to the target chain. Once a majority of guardians reach consensus that an observation has been made, the message is wrapped up in a structure called a VAA which combines the message with the guardian signatures to form a proof.
 
