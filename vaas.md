@@ -1,5 +1,13 @@
 # VAA \[Wormhole]
 
+{% hint style="info" %}
+Further information on VAAs can be found in the [Wormhole documentation](https://book.wormhole.com/wormhole/4\_vaa.html).&#x20;
+{% endhint %}
+
+Verified Action Approvals (VAAs) are the base denomination for messages transferred over Wormhole.&#x20;
+
+
+
 Messages emitted by contracts need to be verified by the guardians before they can be sent to the target chain. Once a majority of guardians reach consensus that an observation has been made, the message is wrapped up in a structure called a VAA which combines the message with the guardian signatures to form a proof.
 
 These VAA's are ultimately what a smart contract on a receiving chain must process in order to receive a wormhole message.

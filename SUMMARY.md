@@ -5,5 +5,7 @@
   * [Envelope](envelopes.md)
   * [Letter](letters.md)
   * [Stamp](mail/stamp.md)
+* [The xAccount Contract](the-xaccount-contract.md)
 * [VAA \[Wormhole\]](vaas.md)
-* [Contracts](contracts.md)
+* [Contracts \[CosmWasm\]](contracts-cosmwasm.md)
+* [Contracts \[EVM\]](contracts-evm.md)
