@@ -10,13 +10,9 @@ pub struct Letter {
 }
 ```
 
-| Key                                           | Type                        | Description                                                                                          |
-| --------------------------------------------- | --------------------------- | ---------------------------------------------------------------------------------------------------- |
-| <pre><code>is_response_expected
-</code></pre> | <pre><code>u8
-</code></pre> | If set as `true`, receiver should send back a response mail, otherwise mail marked as failed.        |
-| <pre><code>is_executable
-</code></pre>        | <pre><code>u8
-</code></pre> | If set as `true`, letter contents should be executed post-receival, otherwise mail marked as failed. |
-| `x_data`                                      | Binary                      | Base64-encoded JSON of message.                                                                      |
+| Key                    | Type   | Description                                                                                          |
+| ---------------------- | ------ | ---------------------------------------------------------------------------------------------------- |
+| is\_response\_expected | u8     | If set as `true`, receiver should send back a response mail, otherwise mail marked as failed.        |
+| is\_executable         | u8     | If set as `true`, letter contents should be executed post-receival, otherwise mail marked as failed. |
+| `x_data`               | Binary | Base64-encoded JSON of message.                                                                      |
 
