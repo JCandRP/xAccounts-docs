@@ -6,6 +6,8 @@
   * [Letter](letters.md)
   * [Stamp](mail/stamp.md)
 * [The xAccount Contract](the-xaccount-contract.md)
+* [The Factory Contract](the-factory-contract.md)
+* [The Registry Contract](the-registry-contract.md)
 * [VAA \[Wormhole\]](vaas.md)
 * [Contracts \[CosmWasm\]](contracts-cosmwasm.md)
 * [Contracts \[EVM\]](contracts-evm.md)
