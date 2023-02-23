@@ -66,7 +66,7 @@ pub struct ChainInfo {
 {% endtab %}
 
 {% tab title="Second Tab" %}
-````solidity
+```solidity
 /**
 
 The xAccount registry holds a list of all chain infos, and controls the factory contract
@@ -134,7 +134,6 @@ interface IRegistry {
 }
 
 ```
-````
 {% endtab %}
 {% endtabs %}
 

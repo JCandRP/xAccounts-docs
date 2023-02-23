@@ -43,6 +43,28 @@ pub enum QueryMsg{
 {% endtab %}
 
 {% tab title="Solidity" %}
+```solidity
+interface Factory {
 
+
+    constructor();
+
+    function createXAccounts(uint256 wormholeId, uint256 addressByteLength, bytes memory addressWormholeStandardized) public returns (MailStructs.AccountInfo memory, MailStructs.AccountInfo memory);
+
+    function createXAccounts(MailStructs.AccountInfo memory initialCommander) public returns (MailStructs.AccountInfo memory, MailStructs.AccountInfo memory);
+
+    function createXAccounts(MailStructs.AccountInfo memory initialCommander, uint64[] memory chainIds, uint8 vaaConsistencyLevel) public;
+
+    function openMail(bytes memory vaa) public;
+
+    function upsertDeployerCommander(uint64 id, MailStructs.AccountInfo memory account) public.
+
+    function upsertDeployerSubordinate(uint64 id, MailStructs.AccountInfo memory account);
+
+    function getRegistry() public view returns (address);
+}
+
+
+```
 {% endtab %}
 {% endtabs %}
