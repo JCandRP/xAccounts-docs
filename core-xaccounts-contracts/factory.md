@@ -1,8 +1,8 @@
-# The Factory Contract
+# Factory
 
 The factory contract creates new xAccounts using... its own xAccount! The genesis xAccount is a special-purposed contract for the factories to communicate over wormhole.&#x20;
 
-<figure><img src=".gitbook/assets/Screenshot from 2023-02-22 19-49-30.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot from 2023-02-22 19-49-30.png" alt=""><figcaption></figcaption></figure>
 
 {% tabs %}
 {% tab title="CosmWasm" %}
