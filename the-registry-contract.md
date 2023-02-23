@@ -65,7 +65,7 @@ pub struct ChainInfo {
 ```
 {% endtab %}
 
-{% tab title="Second Tab" %}
+{% tab title="Solidity" %}
 ```solidity
 /**
 
