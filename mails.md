@@ -6,6 +6,8 @@ $$
 \text{Mail} = \text{Envelope}+\text{Letter}+\text{Stamp}
 $$
 
+<figure><img src=".gitbook/assets/Screenshot from 2023-02-23 22-46-02.png" alt=""><figcaption><p>Post office analogy</p></figcaption></figure>
+
 ### Mail Lifecycle
 
 The lifecycle of a mail can be compared to the lifecycle of a real-world post office mail.
