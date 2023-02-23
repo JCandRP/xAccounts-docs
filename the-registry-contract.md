@@ -66,7 +66,75 @@ pub struct ChainInfo {
 {% endtab %}
 
 {% tab title="Second Tab" %}
+````solidity
+/**
 
+The xAccount registry holds a list of all chain infos, and controls the factory contract
+
+ */
+interface IRegistry {
+
+    /**
+
+    structs
+
+    */
+
+    struct Config {
+        //registry admin
+        address owner;
+
+        //wormhole_id of this contract's chain
+        uint64 wormholeIdHere;
+
+        //wormhole core contract of this contract's chain
+        address wormholeCoreHere;
+
+        //xAccount factory
+        address factory;
+    }
+
+    struct ChainInfo{
+        uint64 wormholeId;
+        string wormholeCore;
+        MailStructs.AccountInfo deployer;
+        MailStructs.AccountInfo factory;
+        string deployerReadable;
+        string factoryReadable;
+        uint64 vmId;
+    }
+
+    /**
+
+    InstantiateMsg
+
+    */
+
+    constructor(uint64 wormholeIdHere, address wormholeCore );
+
+    /**
+    
+    ExecuteMsgs
+
+    */
+
+    function updateConfig(Config calldata config) public;
+    function upsertChainInfo(ChainInfo memory chainInfo) public;
+
+    /**
+    
+    QueryMsgs
+    
+    */
+
+    function getConfig() public view returns (Config memory);
+    function getChainInfo(uint64 wormholeId) public view returns (ChainInfo memory);
+    function getChainInfo() public view returns (ChainInfo memory);
+    function getChainInfos() public view returns (ChainInfo[] memory);
+}
+
+```
+````
 {% endtab %}
 {% endtabs %}
 
