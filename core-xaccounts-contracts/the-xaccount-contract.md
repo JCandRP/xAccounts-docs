@@ -1,6 +1,8 @@
-# The xAccount Contract
+# xAccount
 
 The xAccount contract acts as a transceiving point for incoming and outgoing mails.
+
+<figure><img src="../.gitbook/assets/Screenshot from 2023-02-23 22-58-18.png" alt=""><figcaption><p>One potential xAccount user setup</p></figcaption></figure>
 
 {% tabs %}
 {% tab title="CosmWasm" %}
