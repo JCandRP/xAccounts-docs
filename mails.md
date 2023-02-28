@@ -84,14 +84,9 @@ pub struct AccountInfo{
 }}
 ```
 
-| Key                                          | Type                         | Description                                                                   |
-| -------------------------------------------- | ---------------------------- | ----------------------------------------------------------------------------- |
-| <pre><code>wormhole_id
-</code></pre>         | <pre><code>u64
-</code></pre> | Wormhole chain ID of blockchain (e.g. 2 for Ethereum mainnet)                 |
-| <pre><code>address_byte_length
-</code></pre> | <pre><code>u8
-</code></pre>  | number of non-padded-zero bytes in the address                                |
-| <pre><code>address
-</code></pre>             | <pre><code>Bin
-</code></pre> | bytes representation of address; left-padded with zeros to fixed length of 32 |
+| Key                   | Type   | Description                                                                   |
+| --------------------- | ------ | ----------------------------------------------------------------------------- |
+| wormhole\_id          | u64    | Wormhole chain ID of blockchain (e.g. 2 for Ethereum mainnet)                 |
+| address\_byte\_length | u8     | number of non-padded-zero bytes in the address                                |
+| address               | Binary | bytes representation of address; left-padded with zeros to fixed length of 32 |
+
